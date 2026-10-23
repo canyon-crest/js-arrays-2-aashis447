@@ -59,7 +59,8 @@ for (let i = 0; i < numbers.length; i++) {
     if (i < numbers.length - 1) {
         yourString += ", ";
     }
-}
+} 
+console.log("Numbers: " + yourString)
 //         HINT: Start with an empty string. In the loop,
 //         add the number. If it's not the last number,
 //         also add ", " after it.
